@@ -1,0 +1,1437 @@
+www lovable code
+
+-------------------------------------
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HarSHal — World Without Worries (WWW)</title>
+    <meta name="description" content="HarSHal (Har-Samasyaka-Hal) — an AI-guided movement for empowerment, education, sustainability and a circular economy of human development. Join the World Without Worries." />
+    <meta name="author" content="HarSHal" />
+    <meta name="keywords" content="HarSHal, Har Samasyaka Hal, World Without Worries, WWW, empowerment, lifelong learning, circular economy, sustainability, innovation, governance, AI guidance, education, business development" />
+    <link rel="canonical" href="/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <meta property="og:title" content="HarSHal — World Without Worries" />
+    <meta property="og:description" content="An AI-guided platform for empowerment, education and a circular economy of human development." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HarSHal — World Without Worries" />
+    <meta name="twitter:description" content="AI-guided empowerment, education and sustainability for everyone." />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "HarSHal",
+        "alternateName": "Har-Samasyaka-Hal",
+        "url": "/",
+        "description": "AI-guided platform for empowerment, education, sustainability and the circular economy of human development.",
+        "slogan": "World Without Worries"
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-BrTyxBjn.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DOlkREj0.css">
+  
+<style>
+	@font-face {
+		font-family: 'CameraPlainVariable';
+		src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
+		font-weight: 100 900;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg) !important;
+		color: var(--badge-text) !important;
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow) !important;
+		font-size: 12px;
+		font-family: CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: center;
+		gap: var(--badge-gap);
+		padding: 0 var(--badge-padding);
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+<script defer src="/__l5e/events.js" data-artifact-kind="static_preview" data-artifact-id="4ced6ea72b4533de2177be1044f93cc7978ae1ac" data-commit-sha="4ced6ea72b4533de2177be1044f93cc7978ae1ac" data-context-token="v1.eyJwcm9qZWN0X2lkIjoiNGUzN2UxYjQtNjVlNC00YjYzLThlMmYtYzM5MDMxNmQ0MzgyIiwiYXJ0aWZhY3Rfa2luZCI6InN0YXRpY19wcmV2aWV3IiwiYXJ0aWZhY3RfaWQiOiI0Y2VkNmVhNzJiNDUzM2RlMjE3N2JlMTA0NGY5M2NjNzk3OGFlMWFjIiwiY29tbWl0X3NoYSI6IjRjZWQ2ZWE3MmI0NTMzZGUyMTc3YmUxMDQ0ZjkzY2M3OTc4YWUxYWMiLCJleHAiOjE3ODA2ODc5MDB9.mgDNx2aWbZy4WcTwNt80r-SIS01DziQW1TZpewmFEuk" data-track-url="/__l5e/trackevents?__lovable_sha=4ced6ea72b4533de2177be1044f93cc7978ae1ac"></script><meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/926a53ca-85ab-4c07-9e0c-19311e063621/id-preview-4ced6ea7--4e37e1b4-65e4-4b63-8e2f-c390316d4382.lovable.app-1780684124332.png"><meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/926a53ca-85ab-4c07-9e0c-19311e063621/id-preview-4ced6ea7--4e37e1b4-65e4-4b63-8e2f-c390316d4382.lovable.app-1780684124332.png"></head>
+
+  <body>
+    <div id="root"></div>
+  <script src="https://cdn.gpteng.co/lovable.js" type="module"></script>
+<aside 
+	id="lovable-badge" 
+	role="complementary"
+	dir="ltr"
+	lang="en"
+	aria-label="Edit with Lovable">
+	<a 
+		id="lovable-badge-cta" 
+		target="_blank" 
+		href="https://lovable.dev/projects/4e37e1b4-65e4-4b63-8e2f-c390316d4382?utm_source=lovable-badge"
+		rel="noopener nofollow"
+		aria-label="Edit with Lovable">
+		<span id="lovable-badge-text">Edit with</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+  <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd"/>
+  <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z"/>
+  <path fill="url(#a)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd"/>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
+      <stop offset=".106" stop-color="#FE7B02"/>
+      <stop offset=".394" stop-color="#FE3F21"/>
+      <stop offset=".608" stop-color="#F858BC"/>
+      <stop offset=".929" stop-color="#575ECF"/>
+    </radialGradient>
+  </defs>
+</svg>
+
+
+	</a>
+	
+	<span id="lovable-badge-divider" aria-hidden="true"></span>
+	
+	<button 
+		id="lovable-badge-close"
+		aria-label="Dismiss"
+		title="Dismiss"
+		type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"/>
+		</svg>
+	</button>
+</aside>
+<script>
+	// Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer (screenshot service)
+	if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+		// the page is in an iframe
+		var badge = document.getElementById('lovable-badge');
+		if (badge) {
+			badge.style.display = 'none';
+		}
+	}
+
+	// Add click event listener to close button with animation
+	var closeButton = document.getElementById('lovable-badge-close');
+	if (closeButton) {
+		closeButton.addEventListener('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			var badge = document.getElementById('lovable-badge');
+			if (badge) {
+				badge.classList.add('closing');
+				setTimeout(function() {
+					if (badge) {
+						badge.style.display = 'none';
+					}
+				}, 240);
+			}
+		});
+	}
+</script>
+</body>
+</html>
+
+
+
+
+====================================================
+Codes Generated 
+
+<form action="https://formsubmit.co/ha.saru.bhai.xyz@gmail.com" method="POST">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>HarSHal | World Without Worries</title>
+
+<meta name="description" content="HarSHal (Har-Samasyaka-Hal) AI Guided Problem Solver. Explore solutions, opportunities and possibilities through WWW - World Without Worries.">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,Arial,sans-serif;
+}
+
+body{
+background:#fff;
+color:#000;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:900px;
+}
+
+.chat{
+border:1px solid #ddd;
+border-radius:24px;
+overflow:hidden;
+box-shadow:0 10px 40px rgba(0,0,0,.08);
+}
+
+.header{
+padding:30px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+.logo{
+font-size:42px;
+font-weight:700;
+letter-spacing:2px;
+}
+
+.tag{
+margin-top:10px;
+color:#555;
+}
+
+.chat-window{
+padding:40px;
+text-align:center;
+}
+
+.chat-window h1{
+font-size:34px;
+margin-bottom:15px;
+}
+
+.chat-window p{
+color:#666;
+margin-bottom:30px;
+}
+
+textarea{
+width:100%;
+height:140px;
+padding:20px;
+border-radius:16px;
+border:1px solid #ddd;
+resize:none;
+font-size:16px;
+}
+
+input{
+width:100%;
+padding:16px;
+margin-top:12px;
+border-radius:14px;
+border:1px solid #ddd;
+}
+
+button{
+margin-top:20px;
+padding:16px 30px;
+border:none;
+background:#000;
+color:#fff;
+border-radius:14px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+opacity:.9;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+color:#777;
+font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="chat">
+
+<div class="header">
+
+<div class="logo">
+HarSHal
+</div>
+
+<div class="tag">
+Har-Samasyaka-Hal
+</div>
+
+<div class="tag">
+WWW • World Without Worries
+</div>
+
+</div>
+
+<div class="chat-window">
+
+<h1>
+Every Problem Deserves A Solution
+</h1>
+
+<p>
+AI Guided Problem Exploration Platform
+</p>
+
+<form action="https://formsubmit.co/ha.saru.bhai.xyz@gmail.com" method="POST">
+
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+name="email"
+placeholder="Your Email"
+required>
+
+<textarea
+name="problem"
+placeholder="Describe your challenge, goal, idea, business issue, educational need, career question or opportunity..."
+required></textarea>
+
+<input type="hidden" name="_subject" value="New HarSHal Submission">
+
+<input type="hidden" name="_captcha" value="false">
+
+<button type="submit">
+Ask HarSHal
+</button>
+
+</form>
+
+</div>
+
+<div class="footer">
+
+Security Through Sustainability<br>
+Empowerment Through Education<br>
+Technology Through Trust
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+HarSHal
+Har Samasyaka Hal
+World Without Worries
+AI Guided Problem Solving
+Citizen Empowerment
+Business Development
+Education Technology
+Employer Support
+Government Innovation
+Sustainability
+Circular Economy
+Digital Transformation
+Future of Learning
+AI Assistant
+Knowledge Economy
+
+#HarSHal
+#WorldWithoutWorries
+#FutureFullOfPossibilities
+#SecurityThroughSustainability
+#EmpowermentThroughEducation
+#TechnologyThroughTrust
+#CircularEconomy
+#AIForGood
+#DigitalTransformation
+#LifelongLearning
+#Innovation
+#SustainableDevelopment
+
+generate a complete 300–400 line production-ready single-file HTML version.
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>HarSHal — World Without Worries (WWW)</title>
+  <meta name="description" content="HarSHal (Har-Samasyaka-Hal) — an AI-guided movement for empowerment, education, sustainability and a circular economy of human development. Join the World Without Worries." />
+  <meta name="author" content="HarSHal" />
+  <meta name="keywords" content="HarSHal, Har Samasyaka Hal, World Without Worries, WWW, empowerment, lifelong learning, circular economy, sustainability, innovation, governance, AI guidance, education, business development" />
+  <link rel="canonical" href="/" />
+
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Configuration for Tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            display: ['Space Grotesk', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Structured Schema Data for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HarSHal",
+      "alternateName": "Har-Samasyaka-Hal",
+      "url": "https://harshal.www",
+      "description": "AI-guided platform for empowerment, education, sustainability and the circular economy of human development.",
+      "slogan": "World Without Worries",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "ha.saru.bhai.xyz@gmail.com",
+        "contactType": "Support"
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.03);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--theme-accent-alpha);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--theme-accent);
+    }
+
+    /* CSS Variable Themes injected via JavaScript */
+    :root {
+      --theme-bg: #09090b;
+      --theme-panel: #121215;
+      --theme-border: rgba(255, 255, 255, 0.08);
+      --theme-accent: #10b981; 
+      --theme-accent-hover: #059669;
+      --theme-accent-alpha: rgba(16, 185, 129, 0.15);
+      --theme-text: #f4f4f5;
+      --theme-text-muted: #a1a1aa;
+    }
+
+    body {
+      background-color: var(--theme-bg);
+      color: var(--theme-text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .theme-accent-text { color: var(--theme-accent); }
+    .theme-accent-bg { background-color: var(--theme-accent); }
+    .theme-accent-hover-bg:hover { background-color: var(--theme-accent-hover); }
+    .theme-accent-border { border-color: var(--theme-accent); }
+    .theme-border-color { border-color: var(--theme-border); }
+    .theme-panel-bg { background-color: var(--theme-panel); }
+    .theme-accent-ring:focus { --tw-ring-color: var(--theme-accent); }
+
+    /* Typing Animation */
+    .typing-dot {
+      animation: typingBounce 1.4s infinite ease-in-out both;
+    }
+    .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+    .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+
+    @keyframes typingBounce {
+      0%, 80%, 100% { transform: scale(0); }
+      40% { transform: scale(1); }
+    }
+
+    /* Card background with dynamic opacity over HSB.XYZ_Image_BG.jpeg */
+    .bg-custom-blend {
+      background-image: linear-gradient(to bottom, rgba(18, 18, 21, 0.94), rgba(9, 9, 11, 0.98)), url('HSB.XYZ_Image_BG.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="h-screen overflow-hidden flex flex-col">
+
+  <div class="theme-panel-bg border-b theme-border-color px-4 py-2 text-xs flex flex-wrap justify-between items-center z-10 gap-2">
+    <div class="flex items-center gap-2">
+      <span class="inline-flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span>
+      <span class="font-medium tracking-wide text-zinc-400">HarSHal AI Engine v3.0 Live</span>
+    </div>
+    <div class="flex items-center gap-3 text-zinc-500 flex-wrap">
+      <span class="hover:text-zinc-300 transition cursor-pointer">#HarSHal</span>
+      <span class="hover:text-zinc-300 transition cursor-pointer">#WorldWithoutWorries</span>
+      <span class="hover:text-zinc-300 transition cursor-pointer">#CircularEconomy</span>
+      <span class="hover:text-zinc-300 transition cursor-pointer">#AtoZPossibilities</span>
+    </div>
+  </div>
+
+  <!-- Main Workspace Layout -->
+  <div class="flex flex-1 overflow-hidden relative">
+
+    <!-- Sidebar (Collapsible on mobile) -->
+    <aside id="sidebar" class="w-80 theme-panel-bg border-r theme-border-color flex flex-col justify-between hidden md:flex shrink-0 transition-all duration-300 z-20 absolute md:relative h-full">
+      
+      <!-- Logo and Intro -->
+      <div class="p-6 border-b theme-border-color">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl theme-accent-bg flex items-center justify-center text-black font-bold text-lg font-display shadow-lg shadow-[var(--theme-accent-alpha)] transition-transform hover:scale-105">
+            W
+          </div>
+          <div>
+            <h1 class="font-display font-bold tracking-tight text-xl flex items-center gap-1.5">
+              HarSHal
+              <span class="text-[9px] uppercase tracking-widest px-1.5 py-0.5 rounded border theme-border-color font-mono text-zinc-400">WWW</span>
+            </h1>
+            <p class="text-[10px] text-zinc-400 font-mono tracking-wide">Har Samasyaka Hal</p>
+          </div>
+        </div>
+        <p class="text-xs text-zinc-400 leading-relaxed">
+          The ultimate AI-guided movement for systemic circular development, lifelong learning, and individual empowerment.
+        </p>
+      </div>
+
+      <!-- Quick Session Navigation & History -->
+      <div class="flex-1 overflow-y-auto px-4 py-6 space-y-6">
+        <!-- Visual Asset Showcase -->
+        <div class="px-2">
+          <div class="relative rounded-xl overflow-hidden border theme-border-color bg-zinc-900/50 group">
+            <img src="flyer www.png" alt="World Without Worries Flyer" onerror="this.style.display='none'; document.getElementById('flyer-fallback').style.display='block';" class="w-full h-auto max-h-32 object-cover opacity-80 group-hover:opacity-100 transition duration-300">
+            <div id="flyer-fallback" class="hidden p-4 text-center text-[10px] text-zinc-500">
+              <span class="block font-semibold text-zinc-400 mb-1">flyer www.png Reference</span>
+              Security with Sustainability
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-[11px] font-bold uppercase tracking-wider text-zinc-500 px-2 mb-3">Today's Exploration</h3>
+          <div id="history-list" class="space-y-1">
+            <!-- Dynamic History Loaded Here -->
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-[11px] font-bold uppercase tracking-wider text-zinc-500 px-2 mb-3">Interactive Pillars</h3>
+          <div class="space-y-2">
+            <button onclick="insertPrompt('Explain Chapter A: Alphabets through Algorithms.')" class="w-full text-left p-2.5 rounded-lg border border-transparent hover:border-zinc-800 hover:bg-zinc-900/50 text-xs transition flex items-start gap-2.5">
+              <span class="w-2 h-2 rounded-full theme-accent-bg mt-1.5 shrink-0"></span>
+              <div>
+                <div class="font-medium text-zinc-300">A — Algorithmic Literacy</div>
+                <div class="text-[10px] text-zinc-500">Reading the language of human and machine</div>
+              </div>
+            </button>
+            <button onclick="insertPrompt('What does Chapter B: Business through Boundaries Removed stand for?')" class="w-full text-left p-2.5 rounded-lg border border-transparent hover:border-zinc-800 hover:bg-zinc-900/50 text-xs transition flex items-start gap-2.5">
+              <span class="w-2 h-2 rounded-full theme-accent-bg mt-1.5 shrink-0"></span>
+              <div>
+                <div class="font-medium text-zinc-300">B — Borderless Business</div>
+                <div class="text-[10px] text-zinc-500">Transforming local ideas into global targets</div>
+              </div>
+            </button>
+            <button onclick="insertPrompt('Give me detail on Chapter S: Security through Sustainability.')" class="w-full text-left p-2.5 rounded-lg border border-transparent hover:border-zinc-800 hover:bg-zinc-900/50 text-xs transition flex items-start gap-2.5">
+              <span class="w-2 h-2 rounded-full theme-accent-bg mt-1.5 shrink-0"></span>
+              <div>
+                <div class="font-medium text-zinc-300">S — Sustainable Security</div>
+                <div class="text-[10px] text-zinc-500">Protecting today without breaking tomorrow</div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Footer -->
+      <div class="p-4 border-t theme-border-color bg-black/20">
+        <button onclick="openRegistrationModal()" class="w-full theme-accent-bg theme-accent-hover-bg text-black font-semibold py-3 px-4 rounded-xl text-sm transition shadow-lg flex items-center justify-center gap-2 transform hover:scale-[1.02] active:scale-[0.98]">
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+          I Want It Now!
+        </button>
+        <div class="mt-3 flex justify-between text-[10px] text-zinc-500 px-1">
+          <span>Founders Contact</span>
+          <a href="mailto:ha.saru.bhai.xyz@gmail.com" class="hover:underline theme-accent-text">ha.saru.bhai.xyz@gmail.com</a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Chat Workspace -->
+    <main class="flex-1 flex flex-col justify-between relative bg-zinc-950">
+      
+      <!-- Top Action Bar -->
+      <header class="h-16 border-b theme-border-color flex items-center justify-between px-6 bg-zinc-950/80 backdrop-blur-md">
+        <div class="flex items-center gap-3">
+          <button id="mobile-toggle" class="md:hidden p-2 rounded-lg hover:bg-zinc-900 border theme-border-color">
+            <svg class="w-5 h-5 text-zinc-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+          </button>
+          <div>
+            <h2 class="font-display font-semibold text-sm tracking-wide">World Without Worries Portal</h2>
+            <p class="text-[10px] text-zinc-500 font-mono">Dynamic AI Sandbox & Solution Accelerator</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <!-- Refresh Theme Trigger -->
+          <button onclick="changeThemeOnDemand()" class="p-2 rounded-xl hover:bg-zinc-900 border theme-border-color text-zinc-400 hover:text-zinc-200 transition" title="Randomize Portal Theme">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 8H17" /></svg>
+          </button>
+          <button onclick="openRegistrationModal()" class="hidden sm:flex text-xs border theme-border-color hover:border-zinc-700 px-3 py-1.5 rounded-lg hover:bg-zinc-900 text-zinc-300 font-medium transition items-center gap-1.5">
+            <span>Register Movement</span>
+            <span class="inline-flex h-1.5 w-1.5 rounded-full theme-accent-bg"></span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Chat Screen Panel -->
+      <div id="chat-messages" class="flex-1 overflow-y-auto px-4 md:px-8 py-6 space-y-6">
+        
+        <!-- Welcome Screen (Shown when no messages) -->
+        <div id="welcome-screen" class="max-w-2xl mx-auto text-center py-12 md:py-16 space-y-8">
+          <div class="inline-flex p-3 rounded-2xl theme-panel-bg border theme-border-color transform hover:rotate-6 transition">
+            <div class="w-16 h-16 rounded-xl theme-accent-bg flex items-center justify-center text-black font-bold text-3xl font-display">
+              H
+            </div>
+          </div>
+          
+          <div class="space-y-3">
+            <h2 class="text-3xl md:text-4xl font-display font-bold tracking-tight">
+              Welcome to <span class="theme-accent-text">HarSHal AI</span>
+            </h2>
+            <p class="text-zinc-400 text-sm max-w-md mx-auto leading-relaxed">
+              Input any systemic challenge—governance, education, waste, circular economy, or livelihood—and find your actionable, stress-free roadmap.
+            </p>
+          </div>
+
+          <!-- Quick Suggestion Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left">
+            <button onclick="insertPrompt('Explain Chapter T: Technology with Trust.')" class="p-4 rounded-xl theme-panel-bg border theme-border-color hover:border-zinc-700 transition hover:bg-zinc-900/40 text-left space-y-1">
+              <span class="text-xs font-semibold text-zinc-300 flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full theme-accent-bg"></span>
+                Technology with Trust
+              </span>
+              <p class="text-[11px] text-zinc-500">Discover human-centered innovation for societal benefits.</p>
+            </button>
+            <button onclick="insertPrompt('How do we reach Chapter Z: Zenith through Zeal?')" class="p-4 rounded-xl theme-panel-bg border theme-border-color hover:border-zinc-700 transition hover:bg-zinc-900/40 text-left space-y-1">
+              <span class="text-xs font-semibold text-zinc-300 flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full theme-accent-bg"></span>
+                Zenith through Zeal
+              </span>
+              <p class="text-[11px] text-zinc-500">Reaching the highest aspirations through collective determination.</p>
+            </button>
+            <button onclick="insertPrompt('Tell me about the Dual Learning Model for Employees and Employers.')" class="p-4 rounded-xl theme-panel-bg border theme-border-color hover:border-zinc-700 transition hover:bg-zinc-900/40 text-left space-y-1">
+              <span class="text-xs font-semibold text-zinc-300 flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full theme-accent-bg"></span>
+                The Dual Learning Model
+              </span>
+              <p class="text-[11px] text-zinc-500">Structure for personal career upscaling and leadership longevity.</p>
+            </button>
+            <button onclick="insertPrompt('What is the WWW Circular Economy of Human Development?')" class="p-4 rounded-xl theme-panel-bg border theme-border-color hover:border-zinc-700 transition hover:bg-zinc-900/40 text-left space-y-1">
+              <span class="text-xs font-semibold text-zinc-300 flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full theme-accent-bg"></span>
+                The Circular Loop of Hope
+              </span>
+              <p class="text-[11px] text-zinc-500">Connecting Knowledge, Skills, Enterprise, Prosperity, and Hope.</p>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat messages container -->
+        <div id="messages-container" class="max-w-3xl mx-auto space-y-6 hidden">
+          <!-- Messages dynamically loaded here -->
+        </div>
+
+      </div>
+
+      <!-- Chat Input Area -->
+      <footer class="p-4 border-t theme-border-color bg-zinc-950">
+        <div class="max-w-3xl mx-auto space-y-3">
+          
+          <div class="relative flex items-center">
+            <textarea id="chat-textarea" rows="1" placeholder="Describe your challenge or ask HarSHal a query..." class="w-full bg-zinc-900/50 border theme-border-color rounded-2xl pl-4 pr-12 py-4 text-sm text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-1 theme-accent-ring focus:border-transparent resize-none overflow-y-hidden" oninput="adjustTextareaHeight(this)"></textarea>
+            
+            <button onclick="submitChat()" class="absolute right-2 p-2.5 rounded-xl theme-accent-bg text-black transition transform hover:scale-105 active:scale-95 flex items-center justify-center">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </button>
+          </div>
+
+          <div class="flex flex-wrap justify-between items-center text-[10px] text-zinc-500 px-2 gap-2">
+            <span class="flex items-center gap-1">
+              <svg class="w-3.5 h-3.5 text-zinc-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              Input complex life, society, or corporate issues for systematic roadmapping.
+            </span>
+            <div class="flex items-center gap-3">
+              <button onclick="clearChatHistory()" class="hover:text-zinc-300 transition">Clear History</button>
+              <span>•</span>
+              <span class="font-mono text-zinc-600">Secure AES-256 Sandbox</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+
+  </div>
+
+  <!-- I WANT IT NOW - Beautiful Popup Modal with HSB.XYZ_Image_BG.jpeg Background Blend -->
+  <div id="registration-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md flex items-center justify-center p-4 z-50 hidden transition-opacity duration-300 opacity-0">
+    <div class="bg-custom-blend border theme-border-color w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl transform scale-95 transition-transform duration-300 relative">
+      
+      <!-- Close button -->
+      <button onclick="closeRegistrationModal()" class="absolute top-4 right-4 p-2 rounded-xl bg-zinc-900/50 hover:bg-zinc-800 text-zinc-400 hover:text-zinc-200 transition">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+      </button>
+
+      <div class="p-6 md:p-8 space-y-6 relative z-10 bg-black/40 backdrop-blur-sm">
+        <div class="space-y-2">
+          <div class="inline-flex text-[9px] uppercase tracking-widest px-2.5 py-0.5 rounded border border-emerald-500/20 font-mono text-emerald-400 bg-emerald-500/10">
+            Movement Portal
+          </div>
+          <h2 class="text-2xl font-display font-bold">HarSHal Registration</h2>
+          <p class="text-xs text-zinc-400 leading-relaxed">
+            Ready to deploy systemic problem solving? Complete the form to establish direct support, and trigger immediate outreach from our core founders.
+          </p>
+        </div>
+
+        <form id="registration-form" class="space-y-4" onsubmit="handleRegistrationSubmit(event)">
+          <div class="space-y-1">
+            <label class="text-[10px] uppercase tracking-wider font-semibold text-zinc-400">Your Full Name</label>
+            <input type="text" id="reg-name" required placeholder="HarSHal ( Har-Samasyaka-Hal )" class="w-full bg-zinc-900/80 border theme-border-color rounded-xl p-3 text-sm focus:outline-none focus:ring-1 theme-accent-ring" />
+          </div>
+
+          <div class="space-y-1">
+            <label class="text-[10px] uppercase tracking-wider font-semibold text-zinc-400">Your Contact Email</label>
+            <input type="email" id="reg-email" required placeholder="ha.saru.bhai.xyz@gmail.com" class="w-full bg-zinc-900/80 border theme-border-color rounded-xl p-3 text-sm focus:outline-none focus:ring-1 theme-accent-ring" />
+          </div>
+
+          <div class="space-y-1">
+            <label class="text-[10px] uppercase tracking-wider font-semibold text-zinc-400">Primary Domain / Interest (A–Z Chapters of Possibilities)</label>
+            <select id="reg-domain" class="w-full bg-zinc-900/80 border theme-border-color rounded-xl p-3 text-sm focus:outline-none focus:ring-1 theme-accent-ring text-zinc-300">
+              <option value="A">A — Alphabets through Algorithms (AI Literacy)</option>
+              <option value="B">B — Business through Boundaries Removed (Borderless Business)</option>
+              <option value="C">C — Confidence through Competence (Capability Building)</option>
+              <option value="D">D — Development through Design (Prosperity & Preservation)</option>
+              <option value="E">E — Empowerment through Education (Freedom Currency)</option>
+              <option value="F">F — Futures through Families (Household Resilience)</option>
+              <option value="G">G — Governance through Goodness (Service leadership)</option>
+              <option value="H">H — Health through Harmony (Preventive & Social Wellness)</option>
+              <option value="I">I — Innovation through Inclusion (Technological progress for all)</option>
+              <option value="J">J — Justice through Judgement (Wisdom & Fairness)</option>
+              <option value="K">K — Knowledge through Kindness (Empathic Intelligence)</option>
+              <option value="L">L — Leadership through Legacy (Building enduring institutions)</option>
+              <option value="M">M — Markets through Meaning (Socially Responsible Commerce)</option>
+              <option value="N">N — Nations through Neighbourhoods (Local to National Uplift)</option>
+              <option value="O">O — Opportunity through Ownership (Beneficiary Empowerment)</option>
+              <option value="P">P — Prosperity through Participation (Inclusive Economic Growth)</option>
+              <option value="Q">Q — Quality through Quest (Continuous Excellence Pursuit)</option>
+              <option value="R">R — Resilience through Responsibility (Proactive Preparedness)</option>
+              <option value="S">S — Security through Sustainability (Eco & Financial Security)</option>
+              <option value="T">T — Technology through Trust (Ethical Digital Ecosystems)</option>
+              <option value="U">U — Unity through Understanding (Strength in Diversity)</option>
+              <option value="V">V — Values through Vision (Principles Guiding Progress)</option>
+              <option value="W">W — Wellbeing through Wisdom (Informed Quality of Life)</option>
+              <option value="X">X — Excellence through the X-Factor (Unlocking hidden talent)</option>
+              <option value="Y">Y — Youth through Yield (Investment in tomorrow)</option>
+              <option value="Z">Z — Zenith through Zeal (Collective Aspiration & Hope)</option>
+            </select>
+          </div>
+
+          <div class="space-y-1">
+            <label class="text-[10px] uppercase tracking-wider font-semibold text-zinc-400">Describe the Challenge you want us to solve</label>
+            <textarea id="reg-challenge" required rows="3" placeholder="Explain your project, goal, or the issue you wish to optimize with AI Guidance..." class="w-full bg-zinc-900/80 border theme-border-color rounded-xl p-3 text-sm focus:outline-none focus:ring-1 theme-accent-ring resize-none"></textarea>
+          </div>
+
+          <!-- Buttons -->
+          <div class="pt-2 flex flex-col sm:flex-row gap-3">
+            <button type="submit" class="flex-1 theme-accent-bg theme-accent-hover-bg text-black font-semibold py-3 px-4 rounded-xl text-sm transition shadow-lg flex items-center justify-center gap-2 transform active:scale-95">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+              I Want It Now! (Send via Email)
+            </button>
+            <button type="button" onclick="closeRegistrationModal()" class="border theme-border-color hover:bg-zinc-900 text-zinc-300 font-medium py-3 px-4 rounded-xl text-sm transition">
+              Cancel
+            </button>
+          </div>
+        </form>
+
+        <p class="text-[9px] text-zinc-500 text-center">
+          By clicking, a custom email envelope will open prefilled to dispatch securely to ha.saru.bhai.xyz@gmail.com
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Custom Alert Notification toast container -->
+  <div id="toast-container" class="fixed top-6 right-6 space-y-3 z-50 pointer-events-none"></div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // ----------------- COLOR ENGINE / MULTIPLE THEMES -----------------
+    const THEMES = [
+      {
+        name: "Emerald Horizon",
+        primary: "#10b981",
+        primaryHover: "#059669",
+        primaryAlpha: "rgba(16, 185, 129, 0.15)",
+        panel: "#0b0f0c",
+        bg: "#050606"
+      },
+      {
+        name: "Neon Violet",
+        primary: "#8b5cf6",
+        primaryHover: "#7c3aed",
+        primaryAlpha: "rgba(139, 92, 246, 0.15)",
+        panel: "#0d0a14",
+        bg: "#06040a"
+      },
+      {
+        name: "Cyber Amber",
+        primary: "#f59e0b",
+        primaryHover: "#d97706",
+        primaryAlpha: "rgba(245, 158, 11, 0.15)",
+        panel: "#120e06",
+        bg: "#090602"
+      },
+      {
+        name: "Electric Azure",
+        primary: "#3b82f6",
+        primaryHover: "#2563eb",
+        primaryAlpha: "rgba(59, 130, 246, 0.15)",
+        panel: "#060a12",
+        bg: "#020409"
+      },
+      {
+        name: "Luminous Crimson",
+        primary: "#f43f5e",
+        primaryHover: "#e11d48",
+        primaryAlpha: "rgba(244, 63, 94, 0.15)",
+        panel: "#13070b",
+        bg: "#0a0305"
+      },
+      {
+        name: "Stealth Titanium",
+        primary: "#e4e4e7",
+        primaryHover: "#d4d4d8",
+        primaryAlpha: "rgba(228, 228, 231, 0.15)",
+        panel: "#18181b",
+        bg: "#09090b"
+      }
+    ];
+
+    function applyRandomTheme() {
+      const themeIndex = Math.floor(Math.random() * THEMES.length);
+      const theme = THEMES[themeIndex];
+      
+      document.documentElement.style.setProperty('--theme-bg', theme.bg);
+      document.documentElement.style.setProperty('--theme-panel', theme.panel);
+      document.documentElement.style.setProperty('--theme-accent', theme.primary);
+      document.documentElement.style.setProperty('--theme-accent-hover', theme.primaryHover);
+      document.documentElement.style.setProperty('--theme-accent-alpha', theme.primaryAlpha);
+
+      showToast(`Interface initialized: ${theme.name} layout applied.`);
+    }
+
+    function changeThemeOnDemand() {
+      applyRandomTheme();
+    }
+
+    // Run layout theme immediately on execution
+    applyRandomTheme();
+
+    // ----------------- CHAT SYSTEM / LOCAL STORAGE HISTORY -----------------
+    let activeChatHistory = [];
+    const chatTextarea = document.getElementById('chat-textarea');
+    const welcomeScreen = document.getElementById('welcome-screen');
+    const messagesContainer = document.getElementById('messages-container');
+    const historyList = document.getElementById('history-list');
+
+    function adjustTextareaHeight(el) {
+      el.style.height = 'auto';
+      el.style.height = (el.scrollHeight) + 'px';
+    }
+
+    function insertPrompt(promptText) {
+      chatTextarea.value = promptText;
+      adjustTextareaHeight(chatTextarea);
+      chatTextarea.focus();
+    }
+
+    function initSessionHistory() {
+      const storedHistory = localStorage.getItem('harshal_session_history_v2');
+      if (storedHistory) {
+        activeChatHistory = JSON.parse(storedHistory);
+      } else {
+        activeChatHistory = [
+          {
+            id: 'sh-1',
+            title: "Exploring A-Z Possibilities",
+            timestamp: Date.now() - 3600000,
+            messages: [
+              { sender: 'user', text: 'How do we solve trash issues in my residential area?' },
+              { sender: 'ai', text: 'To solve waste issues permanently, we use Chapter S: Security with Sustainability (protecting today\'s needs without compromising tomorrow) and decentralized upcycling. Feel free to explore other chapters!' }
+            ]
+          }
+        ];
+        saveHistoryToStorage();
+      }
+      renderHistoryList();
+    }
+
+    function saveHistoryToStorage() {
+      localStorage.setItem('harshal_session_history_v2', JSON.stringify(activeChatHistory));
+    }
+
+    function renderHistoryList() {
+      historyList.innerHTML = '';
+      if (activeChatHistory.length === 0) {
+        historyList.innerHTML = `
+          <div class="text-[11px] text-zinc-600 px-2 italic">
+            No recent sessions.
+          </div>
+        `;
+        return;
+      }
+
+      activeChatHistory.forEach(session => {
+        const item = document.createElement('button');
+        item.className = "w-full text-left p-2 rounded-lg text-xs hover:bg-zinc-900 transition flex items-center justify-between text-zinc-400 hover:text-zinc-200 group";
+        item.onclick = () => loadSession(session.id);
+        item.innerHTML = `
+          <div class="flex items-center gap-2 truncate">
+            <svg class="w-3.5 h-3.5 text-zinc-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
+            <span class="truncate">${session.title}</span>
+          </div>
+          <button onclick="event.stopPropagation(); deleteSession('${session.id}');" class="opacity-0 group-hover:opacity-100 p-0.5 hover:text-red-400 transition" title="Delete session">
+            <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+          </button>
+        `;
+        historyList.appendChild(item);
+      });
+    }
+
+    function loadSession(id) {
+      const session = activeChatHistory.find(s => s.id === id);
+      if (!session) return;
+      
+      welcomeScreen.classList.add('hidden');
+      messagesContainer.classList.remove('hidden');
+      messagesContainer.innerHTML = '';
+
+      session.messages.forEach(msg => {
+        appendMessage(msg.sender, msg.text);
+      });
+
+      showToast(`Loaded exploration: "${session.title}"`);
+    }
+
+    function deleteSession(id) {
+      activeChatHistory = activeChatHistory.filter(s => s.id !== id);
+      saveHistoryToStorage();
+      renderHistoryList();
+      
+      welcomeScreen.classList.remove('hidden');
+      messagesContainer.classList.add('hidden');
+      messagesContainer.innerHTML = '';
+      showToast('Session cleared from local vault.');
+    }
+
+    function clearChatHistory() {
+      activeChatHistory = [];
+      saveHistoryToStorage();
+      renderHistoryList();
+      welcomeScreen.classList.remove('hidden');
+      messagesContainer.classList.add('hidden');
+      messagesContainer.innerHTML = '';
+      showToast('All cached sessions wiped successfully.');
+    }
+
+    function appendMessage(sender, text) {
+      const isUser = sender === 'user';
+      const msgWrapper = document.createElement('div');
+      msgWrapper.className = `flex gap-4 ${isUser ? 'justify-end' : 'justify-start'}`;
+
+      const avatar = isUser 
+        ? `<div class="w-8 h-8 rounded-full border theme-border-color bg-zinc-900 flex items-center justify-center font-bold text-[10px] text-zinc-400 uppercase shrink-0">U</div>`
+        : `<div class="w-8 h-8 rounded-lg theme-accent-bg flex items-center justify-center font-bold text-xs text-black shrink-0 font-display">H</div>`;
+
+      const formattedText = text.replace(/\n/g, '<br>');
+
+      const bubble = `
+        <div class="flex items-start gap-3 max-w-xl ${isUser ? 'flex-row-reverse' : 'flex-row'}">
+          ${avatar}
+          <div class="space-y-1">
+            <div class="${isUser ? 'bg-zinc-900 border theme-border-color text-zinc-100' : 'theme-panel-bg border theme-border-color text-zinc-200'} px-4 py-3 rounded-2xl text-xs leading-relaxed shadow-sm">
+              <p>${formattedText}</p>
+            </div>
+            <div class="text-[9px] text-zinc-600 ${isUser ? 'text-right' : 'text-left'} font-mono px-1">
+              ${new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+            </div>
+          </div>
+        </div>
+      `;
+
+      msgWrapper.innerHTML = bubble;
+      messagesContainer.appendChild(msgWrapper);
+      
+      const scrollArea = document.getElementById('chat-messages');
+      scrollArea.scrollTo({ top: scrollArea.scrollHeight, behavior: 'smooth' });
+    }
+
+    let typingIndicatorElement = null;
+
+    function showTypingIndicator() {
+      if (typingIndicatorElement) return;
+
+      typingIndicatorElement = document.createElement('div');
+      typingIndicatorElement.className = "flex gap-4 justify-start";
+      typingIndicatorElement.innerHTML = `
+        <div class="flex items-start gap-3 max-w-xl">
+          <div class="w-8 h-8 rounded-lg theme-accent-bg flex items-center justify-center font-bold text-xs text-black shrink-0 font-display">H</div>
+          <div class="theme-panel-bg border theme-border-color px-4 py-3 rounded-2xl text-xs flex items-center gap-1.5 shadow-sm">
+            <span class="w-1.5 h-1.5 rounded-full bg-zinc-400 typing-dot"></span>
+            <span class="w-1.5 h-1.5 rounded-full bg-zinc-400 typing-dot"></span>
+            <span class="w-1.5 h-1.5 rounded-full bg-zinc-400 typing-dot"></span>
+          </div>
+        </div>
+      `;
+      messagesContainer.appendChild(typingIndicatorElement);
+      const scrollArea = document.getElementById('chat-messages');
+      scrollArea.scrollTo({ top: scrollArea.scrollHeight, behavior: 'smooth' });
+    }
+
+    function removeTypingIndicator() {
+      if (typingIndicatorElement) {
+        typingIndicatorElement.remove();
+        typingIndicatorElement = null;
+      }
+    }
+
+    // ----------------- KNOWLEDGE DICTIONARY FOR AI RESPONSE -----------------
+    const AZ_Blueprints = {
+      "a": "Chapter A: Alphabets through Algorithms. Teaching people to read the language of both books and machines. Literacy must evolve beyond conventional borders to include AI Literacy.",
+      "b": "Chapter B: Business through Boundaries Removed. Transforming local ideas into global opportunities. Breaking geopolitical borders using secure, decentralized e-commerce.",
+      "c": "Chapter C: Confidence through Competence. Building self-belief through capability and achievement.",
+      "d": "Chapter D: Development through Design. Creating growth that is intentional, inclusive, and sustainable.",
+      "e": "Chapter E: Empowerment through Education. Knowledge serves as the premium foundational currency of modern freedom.",
+      "f": "Chapter F: Futures through Families. Helping households build intergenerational wealth and social stability.",
+      "g": "Chapter G: Governance through Goodness. Transparent leadership measured by direct public trust and digital delivery models.",
+      "h": "Chapter H: Health through Harmony. Balancing physical, mental, social, and environmental well-being.",
+      "i": "Chapter I: Innovation through Inclusion. Modern technological progress is meaningless unless every socio-economic group participates.",
+      "j": "Chapter J: Justice through Judgement. Fairness in legal and labor issues guided strictly by wisdom and balance.",
+      "k": "Chapter K: Knowledge through Kindness. Directing human intelligence to align with ethical and empathic parameters.",
+      "l": "Chapter L: Leadership through Legacy. Structuring resilient institutions that outlive individuals.",
+      "m": "Chapter M: Markets through Meaning. Crafting local and global economies that serve people over standard raw margins.",
+      "n": "Chapter N: Nations through Neighbourhoods. Creating strong national frameworks beginning with unified hyper-local actions.",
+      "o": "Chapter O: Opportunity through Ownership. Re-engineering beneficiaries into direct platform contributors and co-owners.",
+      "p": "Chapter P: Prosperity through Participation. Spawning inclusive financial strategies so everyone shares community yields.",
+      "q": "Chapter Q: Quality through Quest. Excellence achieved through continuous measurement and execution loops.",
+      "r": "Chapter R: Resilience through Responsibility. Preparing communities for systemic challenges long before crises emerge.",
+      "s": "Chapter S: Security through Sustainability. Protecting today's biological and civic needs without reducing tomorrow's legacy. This is a foundational theme visible on our reference document 'flyer www.png'.",
+      "t": "Chapter T: Technology through Trust. Creating transparent systems with zero data misuse or privacy vulnerabilities.",
+      "u": "Chapter U: Unity through Understanding. Converting diversity into collective strength.",
+      "v": "Chapter V: Values through Vision. Ethical rules guiding human progress.",
+      "w": "Chapter W: Wellbeing through Wisdom. Informed, optimal living driven by conscious selections.",
+      "x": "Chapter X: Excellence through the X-Factor. Unlocking the extraordinary potential resident inside ordinary citizens.",
+      "y": "Chapter Y: Youth through Yield. Investing heavily in young minds to harvest future prosperity.",
+      "z": "Chapter Z: Zenith through Zeal. Achieving highest performance and a Zero-Worry lifestyle through collective, inspired action."
+    };
+
+    // ----------------- DYNAMIC RESPONSE DISPATCHER -----------------
+    async function submitChat() {
+      const userText = chatTextarea.value.trim();
+      if (!userText) return;
+
+      welcomeScreen.classList.add('hidden');
+      messagesContainer.classList.remove('hidden');
+
+      appendMessage('user', userText);
+      chatTextarea.value = '';
+      adjustTextareaHeight(chatTextarea);
+
+      let currentSessionId = messagesContainer.dataset.sessionId;
+      if (!currentSessionId) {
+        currentSessionId = 'session_' + Date.now();
+        messagesContainer.dataset.sessionId = currentSessionId;
+        activeChatHistory.unshift({
+          id: currentSessionId,
+          title: userText.substring(0, 30) + (userText.length > 30 ? '...' : ''),
+          timestamp: Date.now(),
+          messages: []
+        });
+      }
+
+      const activeSession = activeChatHistory.find(s => s.id === currentSessionId);
+      if (activeSession) {
+        activeSession.messages.push({ sender: 'user', text: userText });
+      }
+
+      showTypingIndicator();
+
+      let aiResponseText = "";
+      try {
+        if (apiKey && apiKey !== "") {
+          aiResponseText = await queryGeminiAPI(userText);
+        } else {
+          aiResponseText = await getHarSHalSimulatedResponse(userText);
+        }
+      } catch (err) {
+        console.error("Query issue, invoking internal engine:", err);
+        aiResponseText = await getHarSHalSimulatedResponse(userText);
+      }
+
+      removeTypingIndicator();
+      appendMessage('ai', aiResponseText);
+
+      if (activeSession) {
+        activeSession.messages.push({ sender: 'ai', text: aiResponseText });
+        saveHistoryToStorage();
+        renderHistoryList();
+      }
+    }
+
+    function getHarSHalSimulatedResponse(text) {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          const lowerText = text.toLowerCase();
+          
+          // Match A-Z queries
+          for (let key in AZ_Blueprints) {
+            if (lowerText.includes(`chapter ${key}`) || (lowerText.length < 5 && lowerText === key) || (lowerText.includes(AZ_Blueprints[key].split(" ")[2].toLowerCase().replace(".", "")))) {
+              resolve(`**${AZ_Blueprints[key]}**\n\nHow can we help you implement this specific chapter in your daily routine, school, or business? Tap the "I Want It Now!" button to establish a direct partnership pathway.`);
+              return;
+            }
+          }
+
+          if (lowerText.includes("dual learning") || lowerText.includes("employee") || lowerText.includes("employer")) {
+            resolve(`**The Dual Learning Model for a World Without Worries:**\n\n* **For Employees:** Learn to Earn → Earn to Grow → Grow to Lead → Lead to Inspire. Core lessons emphasize productivity through practice and growth through gratitude.\n* **For Employers:** Lead through Listening → Profit through Purpose → Scale through Sustainability → Influence through Integrity.\n\n*This model is illustrated beautifully in our movement collateral 'flyer www.png' and 'HSB.XYZ_Image_BG.jpeg'.* #FutureOfLearning`);
+          } else if (lowerText.includes("flyer www.png") || lowerText.includes("flyer")) {
+            resolve(`**Verbatim Reference to flyer www.png:**\n\nThe official 'flyer www.png' features our core founder and illustrates the core motto:\n* **Black Logic. Green Future. Real Solutions. Real Impact.**\n* Minimizing waste while accumulating verified, documented proof of ecological value.\n* Key philosophies: Prove, Improve, Scale, Sustain.\n* To explore further, contact **ha.saru.bhai.xyz@gmail.com** or call **97-1234-9486**.`);
+          } else if (lowerText.includes("background") || lowerText.includes("hsb.xyz") || lowerText.includes("hsb")) {
+            resolve(`**Visual Context: HSB.XYZ_Image_BG.jpeg**\n\nThe high-resolution graphic 'HSB.XYZ_Image_BG.jpeg' is blended directly into the background of our registration module to remind participants of our environmental foundations: systemic tree cover, organic local networks, and a stress-free green atmosphere.`);
+          } else if (lowerText.includes("circular economy") || lowerText.includes("cycle")) {
+            resolve(`**The WWW Circular Economy of Human Development:**\n\n1. **Education** creates Knowledge.\n2. **Knowledge** creates Skills.\n3. **Skills** creates Employment.\n4. **Employment** creates Enterprise.\n5. **Enterprise** creates Prosperity.\n6. **Prosperity** creates Investment.\n7. **Investment** creates Innovation.\n8. **Innovation** creates Sustainability.\n9. **Sustainability** creates Security.\n10. **Security** creates Confidence.\n11. **Confidence** creates Opportunity.\n12. **Opportunity** creates Hope.\n\n*And Hope returns people to Education to begin the next cycle.* #CircularEconomy`);
+          } else {
+            resolve(`**Greetings from HarSHal AI!**\n\nYour query "*${text}*" falls directly under the **World Without Worries (WWW)** national framework. \n\nWe solve systemic issues using our National Formula:\n1. **Educate** the Mind\n2. **Empower** the Individual\n3. **Enable** the Enterprise\n4. **Enrich** the Community\n5. **Elevate** the Nation\n\nTo see which A-Z Chapter of Possibility solves your challenge, type a query like *'Explain Chapter S'* or *'Show me the Dual Learning Model'*. You can also view our official resources like **flyer www.png** or **HSB.XYZ_Image_BG.jpeg**.`);
+          }
+        }, 1200);
+      });
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      initSessionHistory();
+    });
+
+    // ----------------- REGISTRATION MODULE -----------------
+    const regModal = document.getElementById('registration-modal');
+
+    function openRegistrationModal() {
+      regModal.classList.remove('hidden');
+      setTimeout(() => {
+        regModal.classList.remove('opacity-0');
+        regModal.querySelector('.transform').classList.remove('scale-95');
+      }, 50);
+    }
+
+    function closeRegistrationModal() {
+      regModal.classList.add('opacity-0');
+      regModal.querySelector('.transform').classList.add('scale-95');
+      setTimeout(() => {
+        regModal.classList.add('hidden');
+      }, 300);
+    }
+
+    function handleRegistrationSubmit(e) {
+      e.preventDefault();
+      
+      const name = document.getElementById('reg-name').value || "HarSHal ( Har-Samasyaka-Hal )";
+      const email = document.getElementById('reg-email').value || "ha.saru.bhai.xyz@gmail.com";
+      const domainValue = document.getElementById('reg-domain').value;
+      const challenge = document.getElementById('reg-challenge').value;
+
+      // Map domain key to full text chapter label
+      const domainsText = {
+        "A": "Chapter A — Alphabets through Algorithms (AI Literacy)",
+        "B": "Chapter B — Business through Boundaries Removed (Borderless Business)",
+        "C": "Chapter C — Confidence through Competence (Capability Building)",
+        "D": "Chapter D — Development through Design (Prosperity & Preservation)",
+        "E": "Chapter E — Empowerment through Education (Freedom Currency)",
+        "F": "Chapter F — Futures through Families (Household Resilience)",
+        "G": "Chapter G — Governance through Goodness (Service leadership)",
+        "H": "Chapter H — Health through Harmony (Preventive & Social Wellness)",
+        "I": "Chapter I — Innovation through Inclusion (Progress for all)",
+        "J": "Chapter J — Justice through Judgement (Wisdom & Fairness)",
+        "K": "Chapter K — Knowledge through Kindness (Empathic Intelligence)",
+        "L": "Chapter L — Leadership through Legacy (Building enduring institutions)",
+        "M": "Chapter M — Markets through Meaning (Socially Responsible Commerce)",
+        "N": "Chapter N — Nations through Neighbourhoods (Local to National)",
+        "O": "Chapter O — Opportunity through Ownership (Beneficiary Empowerment)",
+        "P": "Chapter P — Prosperity through Participation (Inclusive Growth)",
+        "Q": "Chapter Q — Quality through Quest (Continuous Excellence)",
+        "R": "Chapter R — Resilience through Responsibility (Proactive Preparedness)",
+        "S": "Chapter S — Security through Sustainability (Eco & Financial Security)",
+        "T": "Chapter T — Technology through Trust (Ethical Digital Ecosystems)",
+        "U": "Chapter U — Unity through Understanding (Diversity Strength)",
+        "V": "Chapter V — Values through Vision (Principles Guiding Progress)",
+        "W": "Chapter W — Wellbeing through Wisdom (Informed Quality of Life)",
+        "X": "Chapter X — Excellence through the X-Factor (Unlocking hidden talent)",
+        "Y": "Chapter Y — Youth through Yield (Investment in youth)",
+        "Z": "Chapter Z — Zenith through Zeal (Collective Aspiration & Hope)"
+      };
+
+      const selectedDomainLabel = domainsText[domainValue] || domainValue;
+
+      const subject = encodeURIComponent(`HarSHal WWW Registration — ${name}`);
+      const body = encodeURIComponent(
+        `Dear HarSHal Core Founders,\n\n` +
+        `I am registering to join the World Without Worries (WWW) movement. Here are my challenge parameters as discussed with the AI Guidance engine:\n\n` +
+        `----------------------------------------\n` +
+        `Full Name: ${name}\n` +
+        `Contact Email: ${email}\n` +
+        `Primary Interest Domain: ${selectedDomainLabel}\n` +
+        `----------------------------------------\n\n` +
+        `MY COMPLEX SYSTEMIC CHALLENGE:\n` +
+        `${challenge}\n\n` +
+        `Please reach out to me with the initial diagnostics and sandbox mapping. (Asset References: flyer www.png & HSB.XYZ_Image_BG.jpeg)\n\n` +
+        `Warm regards,\n` +
+        `${name}`
+      );
+
+      // Open email client
+      window.location.href = `mailto:ha.saru.bhai.xyz@gmail.com?subject=${subject}&body=${body}`;
+
+      showToast("Registration compiled! Opening mail envelope directed to ha.saru.bhai.xyz@gmail.com...");
+      closeRegistrationModal();
+      document.getElementById('registration-form').reset();
+    }
+
+    // ----------------- RESPONSIVE CONTROLS -----------------
+    const sidebar = document.getElementById('sidebar');
+    const mobileToggle = document.getElementById('mobile-toggle');
+
+    mobileToggle.addEventListener('click', () => {
+      if (sidebar.classList.contains('hidden')) {
+        sidebar.classList.remove('hidden');
+        sidebar.classList.add('block');
+      } else {
+        sidebar.classList.add('hidden');
+        sidebar.classList.remove('block');
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 768) {
+        sidebar.classList.remove('hidden');
+        sidebar.classList.add('flex');
+      } else {
+        sidebar.classList.add('hidden');
+        sidebar.classList.remove('flex');
+      }
+    });
+
+    // ----------------- TOAST SYSTEM -----------------
+    function showToast(message) {
+      const toastContainer = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = "theme-panel-bg border theme-border-color text-zinc-300 text-xs px-4 py-3 rounded-xl shadow-lg transition duration-300 transform translate-x-12 opacity-0 flex items-center gap-2 pointer-events-auto border-l-4 border-l-[var(--theme-accent)] max-w-sm";
+      toast.innerHTML = `
+        <svg class="w-4 h-4 text-emerald-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+        <span>${message}</span>
+      `;
+      toastContainer.appendChild(toast);
+
+      setTimeout(() => {
+        toast.classList.remove('translate-x-12', 'opacity-0');
+      }, 50);
+
+      setTimeout(() => {
+        toast.classList.add('translate-x-12', 'opacity-0');
+        setTimeout(() => {
+          toast.remove();
+        }, 300);
+      }, 4000);
+    }
+  </script>
+</body>
+</html>

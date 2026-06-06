@@ -1,0 +1,825 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Premium SEO & Discovery Metadata -->
+    <title>HarSHal — World Without Worries (WWW) | AI-Guided Empowerment</title>
+    <meta name="description" content="HarSHal (Har-Samasyaka-Hal) is an AI-guided movement for empowerment, lifelong learning, global sustainability, and a circular economy of human development. Join the World Without Worries today." />
+    <meta name="author" content="HarSHal" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="HarSHal, Har Samasyaka Hal, World Without Worries, WWW, empowerment, lifelong learning, circular economy, sustainability, innovation, governance, AI guidance, education, business development, social impact, secure AI, open governance" />
+    <link rel="canonical" href="/" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HarSHal — World Without Worries (WWW)" />
+    <meta property="og:description" content="An AI-guided system and decentralized movement for lifelong education, structural sustainability, and absolute human empowerment." />
+    <meta property="og:url" content="/" />
+    <meta property="og:site_name" content="HarSHal Movement" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HarSHal — World Without Worries" />
+    <meta name="twitter:description" content="Discover the Circular Economy of Human Development. Interact with HarSHal AI to learn more." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              serif: ['Fraunces', 'serif'],
+            },
+            colors: {
+              brand: {
+                dark: '#0B0B0C',
+                card: '#161618',
+                accent: '#E5E5E7',
+                muted: '#A1A1AA',
+                gold: '#D4AF37',
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Structured Data JSON-LD (Search Engine Optimization) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "HarSHal",
+        "alternateName": "Har-Samasyaka-Hal",
+        "url": "https://harshal-www.org",
+        "logo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=200&auto=format&fit=crop",
+        "description": "An AI-guided platform and framework promoting global empowerment, unified sustainability, and a circular economy of human potential.",
+        "slogan": "World Without Worries",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "ha.saru.bhai.xyz@gmail.com",
+          "contactType": "Movement Support & Registration"
+        },
+        "sameAs": [
+          "https://twitter.com/HarSHal_WWW",
+          "https://linkedin.com/company/harshal-www"
+        ]
+      }
+    </script>
+
+    <style>
+      /* Smooth transitions for interactive state */
+      .chat-bubble-stream {
+        animation: pulseDots 1.4s infinite ease-in-out;
+      }
+      @keyframes pulseDots {
+        0%, 100% { opacity: 0.2; }
+        50% { opacity: 1; }
+      }
+      /* Custom scrollbar styling for a premium modern aesthetic */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0B0B0C;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2D2D30;
+        border-radius: 9999px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #4E4E52;
+      }
+      /* Input active glows */
+      .glow-border:focus-within {
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.25);
+      }
+    </style>
+  </head>
+
+  <body class="bg-brand-dark text-gray-100 font-sans min-h-screen flex flex-col md:flex-row overflow-hidden selection:bg-white selection:text-black">
+    
+    <!-- Sidebar / Chat History Drawer (Desktop Navigation) -->
+    <aside id="sidebar" class="w-80 bg-brand-dark border-r border-zinc-800 flex-shrink-0 flex-col justify-between hidden md:flex z-20">
+      <!-- Sidebar Top -->
+      <div class="p-4 flex flex-col h-full overflow-y-auto">
+        <!-- Brand Title Header -->
+        <div class="flex items-center justify-between mb-8">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-zinc-700 via-zinc-400 to-white flex items-center justify-center shadow-lg">
+              <span class="font-serif font-bold text-black text-lg">H</span>
+            </div>
+            <div>
+              <h1 class="font-bold text-lg leading-tight tracking-wider text-white">HarSHal</h1>
+              <p class="text-[10px] text-zinc-500 uppercase tracking-widest font-semibold">Har Samasyaka Hal</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Primary Action: New Chat -->
+        <button onclick="resetChat()" class="w-full py-3 px-4 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 hover:border-zinc-700 text-zinc-200 rounded-xl font-medium text-sm transition-all duration-200 flex items-center justify-between mb-6 group shadow-sm">
+          <span class="flex items-center gap-2">
+            <i data-lucide="plus-circle" class="w-4 h-4 text-zinc-400 group-hover:text-white transition-colors"></i>
+            New Inquiry
+          </span>
+          <span class="text-[10px] bg-zinc-800 text-zinc-400 px-2 py-0.5 rounded border border-zinc-700 font-mono">⌘N</span>
+        </button>
+
+        <!-- Dynamic Simulated Topics / Navigation Links -->
+        <div class="space-y-6 flex-1">
+          <div>
+            <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider block mb-3">Core Pillars</span>
+            <div class="space-y-1">
+              <button onclick="simulatePrompt('Tell me about the circular economy of human development')" class="w-full text-left py-2 px-3 hover:bg-zinc-900 rounded-lg text-sm text-zinc-400 hover:text-zinc-200 transition-colors flex items-center gap-2.5">
+                <i data-lucide="refresh-cw" class="w-3.5 h-3.5 text-zinc-500"></i>
+                <span class="truncate">Circular Human Economy</span>
+              </button>
+              <button onclick="simulatePrompt('Explain the World Without Worries concept')" class="w-full text-left py-2 px-3 hover:bg-zinc-900 rounded-lg text-sm text-zinc-400 hover:text-zinc-200 transition-colors flex items-center gap-2.5">
+                <i data-lucide="globe" class="w-3.5 h-3.5 text-zinc-500"></i>
+                <span class="truncate">What is WWW?</span>
+              </button>
+              <button onclick="simulatePrompt('How does HarSHal support lifelong learning?')" class="w-full text-left py-2 px-3 hover:bg-zinc-900 rounded-lg text-sm text-zinc-400 hover:text-zinc-200 transition-colors flex items-center gap-2.5">
+                <i data-lucide="graduation-cap" class="w-3.5 h-3.5 text-zinc-500"></i>
+                <span class="truncate">Lifelong Ed & Empowerment</span>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <span class="text-[10px] uppercase font-bold text-zinc-500 tracking-wider block mb-3">Get Involved</span>
+            <div class="space-y-1">
+              <button onclick="openRegistrationModal()" class="w-full text-left py-2 px-3 bg-zinc-900/50 hover:bg-zinc-800/80 text-white rounded-lg text-sm transition-colors flex items-center justify-between">
+                <span class="flex items-center gap-2.5">
+                  <i data-lucide="user-plus" class="w-3.5 h-3.5 text-zinc-300"></i>
+                  Register For Access
+                </span>
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+              </button>
+              <a href="mailto:ha.saru.bhai.xyz@gmail.com?subject=Inquiry regarding HarSHal WWW Platform" class="w-full text-left py-2 px-3 hover:bg-zinc-900 rounded-lg text-sm text-zinc-400 hover:text-zinc-200 transition-colors flex items-center gap-2.5">
+                <i data-lucide="mail" class="w-3.5 h-3.5 text-zinc-500"></i>
+                <span class="truncate">Direct Contact</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Bottom Profile / Context Footer -->
+      <div class="p-4 border-t border-zinc-800 bg-zinc-950/40">
+        <div class="flex items-center justify-between mb-4">
+          <span class="text-xs text-zinc-500">Current Node: Global Alpha</span>
+          <span class="text-xs px-2 py-0.5 bg-zinc-800 text-zinc-300 rounded font-mono text-[10px] border border-zinc-700">v1.2.0</span>
+        </div>
+        <div class="p-3 bg-zinc-900/60 rounded-xl border border-zinc-800/80 flex items-center gap-3">
+          <div class="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center font-bold text-xs">
+            W
+          </div>
+          <div class="overflow-hidden">
+            <p class="text-xs font-semibold text-zinc-200 truncate">World Without Worries</p>
+            <p class="text-[10px] text-zinc-500 truncate">ha.saru.bhai.xyz@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Mobile Top Navigation Bar -->
+    <header class="md:hidden w-full bg-brand-dark/90 backdrop-blur-md border-b border-zinc-800 px-4 py-3 flex items-center justify-between sticky top-0 z-30">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-md">
+          <span class="font-serif font-bold text-black text-sm">H</span>
+        </div>
+        <div>
+          <span class="font-bold text-sm tracking-wide text-white block">HarSHal AI</span>
+          <span class="text-[9px] text-zinc-500 uppercase tracking-widest font-semibold block leading-none">World Without Worries</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <button onclick="openRegistrationModal()" class="px-3 py-1.5 bg-white text-black hover:bg-zinc-200 text-xs font-semibold rounded-lg transition-colors">
+          Register
+        </button>
+        <button id="mobileMenuBtn" onclick="toggleMobileSidebar()" class="p-2 text-zinc-400 hover:text-white transition-colors">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Sidebar Overlay -->
+    <div id="mobileSidebar" class="fixed inset-0 bg-black/60 z-40 hidden transition-opacity duration-300">
+      <div class="w-72 bg-brand-dark h-full p-5 flex flex-col justify-between transform -translate-x-full transition-transform duration-300" id="mobileSidebarContent">
+        <div>
+          <div class="flex items-center justify-between mb-8">
+            <span class="font-serif text-xl font-bold tracking-wider text-white">HarSHal WWW</span>
+            <button onclick="toggleMobileSidebar()" class="text-zinc-400 hover:text-white">
+              <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+          </div>
+          
+          <nav class="space-y-6">
+            <div>
+              <span class="text-[9px] text-zinc-500 font-bold uppercase tracking-wider block mb-2">Platform Overview</span>
+              <div class="space-y-2">
+                <button onclick="simulatePrompt('What is WWW?'); toggleMobileSidebar();" class="w-full text-left p-2.5 rounded-lg text-zinc-300 hover:bg-zinc-900 transition-colors text-sm flex items-center gap-3">
+                  <i data-lucide="help-circle" class="w-4 h-4 text-zinc-400"></i> Discover WWW
+                </button>
+                <button onclick="simulatePrompt('Explain the circular economy of human development'); toggleMobileSidebar();" class="w-full text-left p-2.5 rounded-lg text-zinc-300 hover:bg-zinc-900 transition-colors text-sm flex items-center gap-3">
+                  <i data-lucide="refresh-cw" class="w-4 h-4 text-zinc-400"></i> Circular Human Economy
+                </button>
+                <button onclick="simulatePrompt('Tell me about the tools available inside HarSHal'); toggleMobileSidebar();" class="w-full text-left p-2.5 rounded-lg text-zinc-300 hover:bg-zinc-900 transition-colors text-sm flex items-center gap-3">
+                  <i data-lucide="layers" class="w-4 h-4 text-zinc-400"></i> Core Tools & Modules
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <span class="text-[9px] text-zinc-500 font-bold uppercase tracking-wider block mb-2">Join Our Mission</span>
+              <div class="space-y-2">
+                <button onclick="openRegistrationModal(); toggleMobileSidebar();" class="w-full text-left p-2.5 rounded-lg bg-white/5 hover:bg-white/10 text-white transition-all text-sm flex items-center gap-3">
+                  <i data-lucide="user-plus" class="w-4 h-4 text-zinc-200"></i> Fill Registration Form
+                </button>
+                <a href="mailto:ha.saru.bhai.xyz@gmail.com?subject=Inquiry regarding HarSHal WWW Platform" class="w-full text-left p-2.5 rounded-lg text-zinc-300 hover:bg-zinc-900 transition-colors text-sm flex items-center gap-3">
+                  <i data-lucide="mail" class="w-4 h-4 text-zinc-400"></i> Email Director
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="border-t border-zinc-800 pt-4">
+          <p class="text-xs text-zinc-500 mb-1">Contact: ha.saru.bhai.xyz@gmail.com</p>
+          <p class="text-[10px] text-zinc-600">© 2026 HarSHal Movement. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Workspace Container -->
+    <main class="flex-1 flex flex-col justify-between relative overflow-hidden h-[calc(100vh-60px)] md:h-screen">
+      
+      <!-- Top Action Bar (Subtle Info banner) -->
+      <header class="hidden md:flex items-center justify-between px-8 py-4 border-b border-zinc-900 bg-brand-dark/40">
+        <div class="flex items-center gap-3">
+          <span class="flex h-2 w-2 relative">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-zinc-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-zinc-200"></span>
+          </span>
+          <span class="text-xs font-semibold text-zinc-400 tracking-wider">HARSHAL COGNITIVE CORE: ONLINE</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <button onclick="openRegistrationModal()" class="px-4 py-1.5 bg-zinc-100 hover:bg-zinc-200 text-black text-xs font-semibold rounded-lg shadow-sm transition-all flex items-center gap-1.5">
+            <i data-lucide="user-check" class="w-3.5 h-3.5"></i>
+            Register Early Access
+          </button>
+        </div>
+      </header>
+
+      <!-- Central Chat Stream / Scroll View -->
+      <section id="chat-container" class="flex-1 overflow-y-auto px-4 md:px-12 py-8 space-y-8 flex flex-col justify-between">
+        
+        <!-- Welcome Screen (Shown if no messages exist) -->
+        <div id="welcome-screen" class="max-w-3xl mx-auto w-full my-auto text-center space-y-12">
+          
+          <!-- Animated Brand Icon -->
+          <div class="inline-flex relative">
+            <div class="w-20 h-20 rounded-3xl bg-gradient-to-tr from-zinc-800 to-white flex items-center justify-center shadow-xl mb-4 relative z-10 mx-auto">
+              <span class="font-serif font-bold text-black text-4xl">H</span>
+            </div>
+            <div class="absolute -inset-1 rounded-3xl bg-white/20 blur-xl opacity-40"></div>
+          </div>
+
+          <div class="space-y-4">
+            <h2 class="text-3xl md:text-5xl font-serif font-semibold tracking-tight text-white leading-tight">
+              Explore a World Without Worries.
+            </h2>
+            <p class="text-zinc-400 text-sm md:text-base max-w-xl mx-auto font-light leading-relaxed">
+              Welcome to <span class="text-white font-medium">HarSHal (Har-Samasyaka-Hal)</span>. Interact with our cognitive model to explore our vision for structural empowerment, lifelong learning systems, and absolute human growth.
+            </p>
+          </div>
+
+          <!-- Suggested Promo Prompt Cards -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto pt-4">
+            <button onclick="simulatePrompt('What is HarSHal and WWW?')" class="group p-5 bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-800/80 hover:border-zinc-700/80 rounded-2xl text-left transition-all duration-200 shadow-sm hover:shadow-md flex flex-col justify-between gap-3">
+              <div class="space-y-1.5">
+                <span class="text-xs font-bold text-zinc-500 uppercase tracking-widest">Introduction</span>
+                <p class="text-zinc-200 font-semibold text-sm group-hover:text-white">What is HarSHal and the World Without Worries?</p>
+              </div>
+              <span class="text-xs text-zinc-500 flex items-center gap-1.5 group-hover:text-zinc-300">
+                Inquire <i data-lucide="arrow-right" class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform"></i>
+              </span>
+            </button>
+
+            <button onclick="simulatePrompt('Explain the Circular Economy of Human Development')" class="group p-5 bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-800/80 hover:border-zinc-700/80 rounded-2xl text-left transition-all duration-200 shadow-sm hover:shadow-md flex flex-col justify-between gap-3">
+              <div class="space-y-1.5">
+                <span class="text-xs font-bold text-zinc-500 uppercase tracking-widest">Socio-Economics</span>
+                <p class="text-zinc-200 font-semibold text-sm group-hover:text-white">How does Circular Human Development work?</p>
+              </div>
+              <span class="text-xs text-zinc-500 flex items-center gap-1.5 group-hover:text-zinc-300">
+                Inquire <i data-lucide="arrow-right" class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform"></i>
+              </span>
+            </button>
+
+            <button onclick="simulatePrompt('How do I register for early access?')" class="group p-5 bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-800/80 hover:border-zinc-700/80 rounded-2xl text-left transition-all duration-200 shadow-sm hover:shadow-md flex flex-col justify-between gap-3">
+              <div class="space-y-1.5">
+                <span class="text-xs font-bold text-zinc-500 uppercase tracking-widest">Onboarding</span>
+                <p class="text-zinc-200 font-semibold text-sm group-hover:text-white">Register for early access & pilot projects</p>
+              </div>
+              <span class="text-xs text-zinc-500 flex items-center gap-1.5 group-hover:text-zinc-300">
+                Inquire <i data-lucide="arrow-right" class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform"></i>
+              </span>
+            </button>
+
+            <button onclick="simulatePrompt('Tell me about the core values of this movement')" class="group p-5 bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-800/80 hover:border-zinc-700/80 rounded-2xl text-left transition-all duration-200 shadow-sm hover:shadow-md flex flex-col justify-between gap-3">
+              <div class="space-y-1.5">
+                <span class="text-xs font-bold text-zinc-500 uppercase tracking-widest">Core Values</span>
+                <p class="text-zinc-200 font-semibold text-sm group-hover:text-white">Empowerment, Lifelong Education & Trust</p>
+              </div>
+              <span class="text-xs text-zinc-500 flex items-center gap-1.5 group-hover:text-zinc-300">
+                Inquire <i data-lucide="arrow-right" class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat Logs (Dynamically populated) -->
+        <div id="chat-logs" class="max-w-3xl mx-auto w-full space-y-6 hidden">
+          <!-- Populated by Javascript -->
+        </div>
+
+      </section>
+
+      <!-- Chat Input Area & Form Field -->
+      <footer class="p-4 md:p-8 bg-gradient-to-t from-brand-dark via-brand-dark/95 to-transparent border-t border-zinc-900">
+        <div class="max-w-3xl mx-auto">
+          
+          <!-- Quick Info tag above input -->
+          <div id="input-helper" class="flex justify-between items-center text-[11px] text-zinc-500 px-2 mb-2">
+            <span>Powered by HarSHal Cognitive Intelligence Node</span>
+            <span class="flex items-center gap-1">
+              <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-500"></i> Secure Sandbox Encrypted
+            </span>
+          </div>
+
+          <!-- The Custom Chat Input Box -->
+          <div class="glow-border bg-zinc-900/80 border border-zinc-800 rounded-2xl flex items-end p-2 transition-all duration-300 relative">
+            <button onclick="openRegistrationModal()" title="Attach / Register" class="p-3 text-zinc-400 hover:text-white hover:bg-zinc-800 rounded-xl transition-colors flex-shrink-0" aria-label="Upload document">
+              <i data-lucide="link" class="w-5 h-5"></i>
+            </button>
+            
+            <textarea id="userInput" rows="1" placeholder="Ask HarSHal anything (e.g. 'How does HarSHal support lifelong learning?')..." class="flex-1 bg-transparent border-none resize-none px-3 py-3 text-zinc-200 placeholder-zinc-500 text-sm outline-none focus:ring-0 max-h-48 overflow-y-auto leading-relaxed" onkeydown="handleInputKeydown(event)"></textarea>
+
+            <button onclick="submitUserQuery()" id="sendBtn" class="p-3 bg-white text-black hover:bg-zinc-200 rounded-xl transition-all duration-200 flex-shrink-0 flex items-center justify-center shadow-lg" aria-label="Send Query">
+              <i data-lucide="arrow-up" class="w-5 h-5 font-bold"></i>
+            </button>
+          </div>
+
+          <!-- Bottom disclaimer -->
+          <div class="text-center mt-3 text-[10px] text-zinc-600 tracking-wide font-medium">
+            #WorldWithoutWorries #HarSHal #Empowerment #LifelongLearning #CircularEconomy
+          </div>
+
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- Pre-styled Premium Glassmorphic Registration Modal -->
+    <div id="registrationModal" class="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 backdrop-blur-sm hidden transition-opacity duration-300">
+      <div class="bg-zinc-950 border border-zinc-800 rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl relative transform scale-95 transition-transform duration-300" id="modalContainer">
+        
+        <!-- Header Image / Accent -->
+        <div class="h-2 bg-gradient-to-r from-zinc-700 via-white to-zinc-800 w-full"></div>
+
+        <!-- Close Button -->
+        <button onclick="closeRegistrationModal()" class="absolute top-4 right-4 text-zinc-400 hover:text-white p-1 rounded-lg hover:bg-zinc-900 transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+
+        <div class="p-8">
+          
+          <!-- Title block -->
+          <div class="space-y-2 mb-6">
+            <span class="text-[10px] font-bold text-zinc-400 tracking-widest uppercase">Movement Registration</span>
+            <h3 class="text-2xl font-serif font-bold text-white">Join World Without Worries (WWW)</h3>
+            <p class="text-xs text-zinc-400">Become a pioneer or pilot participant in the HarSHal movement. Submit your query, idea, or portfolio, and coordinate details with our operational director.</p>
+          </div>
+
+          <!-- Form elements -->
+          <form id="regForm" onsubmit="handleRegistrationSubmit(event)" class="space-y-4">
+            
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-1.5" for="fullName">Full Name *</label>
+                <input type="text" id="fullName" required class="w-full bg-zinc-900 border border-zinc-800 focus:border-zinc-600 rounded-xl px-4 py-3 text-sm text-zinc-200 outline-none transition-colors" placeholder="John Doe">
+              </div>
+              <div>
+                <label class="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-1.5" for="emailAddress">Email Address *</label>
+                <input type="email" id="emailAddress" required class="w-full bg-zinc-900 border border-zinc-800 focus:border-zinc-600 rounded-xl px-4 py-3 text-sm text-zinc-200 outline-none transition-colors" placeholder="john@example.com">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-1.5" for="participationType">How would you like to contribute? *</label>
+              <select id="participationType" required class="w-full bg-zinc-900 border border-zinc-800 focus:border-zinc-600 rounded-xl px-4 py-3 text-sm text-zinc-200 outline-none transition-colors">
+                <option value="" disabled selected class="text-zinc-500">Select an Option</option>
+                <option value="pioneer">Founding Pioneer / Advocate</option>
+                <option value="learner">Lifelong Learner / Student</option>
+                <option value="business">Business Developer / Partner</option>
+                <option value="sustainability">Sustainability / Circular Economy Expert</option>
+                <option value="tech">AI, Cognitive Engineering & Systems</option>
+                <option value="other">Other Unique Value Propositions</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-[10px] font-bold text-zinc-400 uppercase tracking-wider mb-1.5" for="proposalDetails">Briefly introduce your thoughts or complex problem you want to solve *</label>
+              <textarea id="proposalDetails" rows="4" required class="w-full bg-zinc-900 border border-zinc-800 focus:border-zinc-600 rounded-xl px-4 py-3 text-sm text-zinc-200 outline-none transition-colors resize-none placeholder-zinc-600" placeholder="I want to solve structural training bottlenecks using the WWW framework..."></textarea>
+            </div>
+
+            <div class="flex items-start gap-2.5 pt-2">
+              <input type="checkbox" id="consentTerms" required class="mt-1 accent-zinc-100">
+              <label for="consentTerms" class="text-[10px] text-zinc-500 leading-normal">
+                I authorize HarSHal AI to package my inputs and facilitate correspondence via email directly to <span class="text-zinc-300 font-medium">ha.saru.bhai.xyz@gmail.com</span> for validation.
+              </label>
+            </div>
+
+            <div class="pt-4 flex gap-3">
+              <button type="button" onclick="closeRegistrationModal()" class="w-1/2 py-3 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 rounded-xl text-xs font-semibold text-zinc-300 transition-colors">
+                Cancel
+              </button>
+              <button type="submit" class="w-1/2 py-3 bg-white hover:bg-zinc-200 text-black rounded-xl text-xs font-semibold transition-colors flex items-center justify-center gap-1.5 shadow-md">
+                <i data-lucide="send" class="w-3.5 h-3.5"></i>
+                Submit Form
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Script Block containing AI Mock Knowledge Base and Page Logic -->
+    <script>
+      // Initialize icons
+      lucide.createIcons();
+
+      // UI Element Selectors
+      const chatLogs = document.getElementById('chat-logs');
+      const welcomeScreen = document.getElementById('welcome-screen');
+      const userInput = document.getElementById('userInput');
+      const regModal = document.getElementById('registrationModal');
+      const modalContainer = document.getElementById('modalContainer');
+      const mobileSidebar = document.getElementById('mobileSidebar');
+      const mobileSidebarContent = document.getElementById('mobileSidebarContent');
+
+      // Expand textarea automatically based on lines
+      userInput.addEventListener('input', () => {
+        userInput.style.height = 'auto';
+        userInput.style.height = userInput.scrollHeight + 'px';
+      });
+
+      // Quick-reference platform facts & interactive responses (The WWW Knowledgebase)
+      const platformKnowledge = [
+        {
+          triggers: ['what is harshal', 'what is www', 'explain www', 'tell me about www', 'every problems solution'],
+          heading: "HarSHal & World Without Worries (WWW)",
+          body: `**HarSHal** stands for **Har-Samasyaka-Hal** (Hindi for *'The Solution to Every Problem'*). 
+
+It is an AI-guided global movement, framework, and ecosystem aimed at creating a **World Without Worries (WWW)**. The movement works across three distinct levels of global structural change:
+1. **Human Empowerment:** Supplying people with open-access cognitive guidance, technical skills, and opportunities.
+2. **Lifelong Education:** Decoupling knowledge acquisition from static childhood school models to continuous, interactive personal development.
+3. **Circular Economy of Human Potential:** Eliminating human wasted talent by creating decentralized peer-to-peer networks that exchange training, service, and innovation.
+
+To join our alpha initiatives, fill out the [**Early Access Registration Form**](#) by clicking the button in the menu bar, or send a request to **ha.saru.bhai.xyz@gmail.com**.`
+        },
+        {
+          triggers: ['circular economy', 'circular human', 'human development', 'socio-economic', 'wasted talent'],
+          heading: "The Circular Economy of Human Development",
+          body: `Standard circular economies focus on recycling material waste (plastic, metals, electronics). HarSHal introduces a profound paradigm shift: **recycling unused human potential**. 
+
+In conventional systems, vast amounts of human talent, ambition, and specialized knowledge go completely unrecognized or underutilized.
+* **The Solution:** We create a symbiotic ecosystem where individuals continuously upskill each other in exchange for collective resources.
+* **Decentralized Support:** By utilizing cognitive tools, we route problems directly to individuals best suited to solve them, converting complex social roadblocks into micro-economic development tokens.
+* **Sustainability:** When humans are empowered to continuously evolve and solve localized structural problems, global reliance on non-renewable structures naturally decreases.`
+        },
+        {
+          triggers: ['register', 'join', 'how to register', 'early access', 'sign up', 'contact', 'email'],
+          heading: "How to Join the HarSHal WWW Movement",
+          body: `We are currently registering our founding wave of Pioneers, Collaborators, Developers, and Dreamers.
+
+Here is how you can secure your spot and start shaping the platform:
+1. **Interactive Form:** Click "Register Early Access" at the top or in the navigation menu to launch our secure application drawer.
+2. **Form Parameters:** Provide your Name, Email, and a description of your skill set or the complex problem you wish to solve.
+3. **Direct Email:** Your formulated request is processed and transmitted directly to **ha.saru.bhai.xyz@gmail.com** to bypass bureaucratic blockages and initiate human review.
+
+*Ready to act?* I can launch the registration modal directly for you right now. Just ask me to 'Open Form'.`
+        },
+        {
+          triggers: ['open form', 'show form', 'launch form', 'registration form'],
+          heading: "Launching Registration Portal",
+          body: `I am opening the secure WWW Registration portal for you. Please complete the form parameters in the pop-up modal to compile your early application.`,
+          action: () => openRegistrationModal()
+        },
+        {
+          triggers: ['empowerment', 'education', 'lifelong', 'learning', 'teaching', 'school'],
+          heading: "A New Architectural Vision for Lifelong Learning",
+          body: `Education is not a milestone that terminates with a certificate; it is a life-sustaining process.
+
+HarSHal implements a cognitive layer that:
+* **Self-Regulates:** Diagnoses individual skill gaps on-demand and devises custom visual curriculum layouts.
+* **Eliminates Gatekeeping:** Provides premium cognitive material directly to anyone, anywhere, regardless of socio-economic status.
+* **Incentivizes Tutoring:** Every user who learns a skill is immediately connected with peers who need to learn it, driving our *Circular Development model*.
+* **Real-world Impact:** We emphasize complex problem-solving over abstract rote learning, letting candidates test their expertise on structural world issues.`
+        },
+        {
+          triggers: ['values', 'ethics', 'open governance', 'trust', 'security'],
+          heading: "Core Governance, Trust & Transparency",
+          body: `The path to a **World Without Worries** requires a bedrock of bulletproof trust, accessibility, and architectural integrity.
+
+* **Absolute Privacy:** User data in the WWW framework belongs strictly to the creator. AI analytics are used localized to maximize user empowerment, never to exploit.
+* **No Centralized Bias:** HarSHal's decision-making frameworks prioritize balanced scientific validation, structural sustainability, and absolute social wellness.
+* **Open Contribution:** Anyone can examine our models, query our goals, and directly submit architectural criticisms to the founders via **ha.saru.bhai.xyz@gmail.com**.`
+        }
+      ];
+
+      // Handle Keydown in input area
+      function handleInputKeydown(event) {
+        if (event.key === 'Enter' && !event.shiftKey) {
+          event.preventDefault();
+          submitUserQuery();
+        }
+      }
+
+      // Simulate a preset question from clicking prompt cards
+      function simulatePrompt(promptText) {
+        userInput.value = promptText;
+        submitUserQuery();
+      }
+
+      // Main submit orchestration
+      function submitUserQuery() {
+        const query = userInput.value.trim();
+        if (!query) return;
+
+        // Clean user input area
+        userInput.value = '';
+        userInput.style.height = 'auto';
+
+        // Prepare UI elements: Hide Welcome Screen, Show Logs
+        welcomeScreen.classList.add('hidden');
+        chatLogs.classList.remove('hidden');
+
+        // Append User Message to Log
+        appendMessage('user', query);
+
+        // Scroll view immediately
+        scrollToBottom();
+
+        // Simulate AI Thinking & Response Stream
+        simulateResponseStream(query);
+      }
+
+      // Render custom bubbles to chat workspace
+      function appendMessage(sender, text) {
+        const bubble = document.createElement('div');
+        
+        if (sender === 'user') {
+          bubble.className = "flex justify-end gap-3 max-w-2xl ml-auto animate-fade-in";
+          bubble.innerHTML = `
+            <div class="flex flex-col items-end">
+              <span class="text-[10px] text-zinc-500 font-bold mb-1 mr-1">You</span>
+              <div class="bg-zinc-800 text-zinc-100 rounded-2xl rounded-tr-none px-4 py-3 text-sm shadow-sm leading-relaxed border border-zinc-700/50">
+                ${escapeHTML(text)}
+              </div>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-zinc-700 text-zinc-200 flex items-center justify-center font-bold text-xs flex-shrink-0">
+              U
+            </div>
+          `;
+        } else {
+          // AI message
+          bubble.className = "flex gap-3 max-w-2xl animate-fade-in";
+          bubble.innerHTML = `
+            <div class="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center font-bold text-xs flex-shrink-0 shadow">
+              H
+            </div>
+            <div class="flex flex-col">
+              <span class="text-[10px] text-zinc-500 font-bold mb-1 ml-1">HarSHal AI</span>
+              <div class="bg-zinc-900 border border-zinc-800 text-zinc-200 rounded-2xl rounded-tl-none px-4 py-3 text-sm shadow-sm leading-relaxed text-left">
+                <div class="prose prose-invert max-w-none text-zinc-300">
+                  ${formatMarkdown(text)}
+                </div>
+              </div>
+            </div>
+          `;
+        }
+
+        chatLogs.appendChild(bubble);
+        scrollToBottom();
+      }
+
+      // Appends simulated loading bubble
+      function appendLoadingBubble() {
+        const loadingDiv = document.createElement('div');
+        loadingDiv.id = 'ai-loading';
+        loadingDiv.className = "flex gap-3 max-w-2xl animate-fade-in";
+        loadingDiv.innerHTML = `
+          <div class="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center font-bold text-xs flex-shrink-0 shadow">
+            H
+          </div>
+          <div class="flex flex-col">
+            <span class="text-[10px] text-zinc-500 font-bold mb-1 ml-1">HarSHal AI</span>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl rounded-tl-none px-5 py-3.5 text-sm shadow-sm flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-zinc-400 chat-bubble-stream" style="animation-delay: 0s"></span>
+              <span class="w-2 h-2 rounded-full bg-zinc-400 chat-bubble-stream" style="animation-delay: 0.2s"></span>
+              <span class="w-2 h-2 rounded-full bg-zinc-400 chat-bubble-stream" style="animation-delay: 0.4s"></span>
+            </div>
+          </div>
+        `;
+        chatLogs.appendChild(loadingDiv);
+        scrollToBottom();
+      }
+
+      // Removes simulated loading bubble
+      function removeLoadingBubble() {
+        const loader = document.getElementById('ai-loading');
+        if (loader) loader.remove();
+      }
+
+      // Matches user input with mock database or serves a dynamic standard answer
+      function simulateResponseStream(userQuery) {
+        appendLoadingBubble();
+
+        setTimeout(() => {
+          removeLoadingBubble();
+
+          const lowerQuery = userQuery.toLowerCase();
+          let matchedFact = null;
+
+          // Search facts database
+          for (const fact of platformKnowledge) {
+            if (fact.triggers.some(trigger => lowerQuery.includes(trigger))) {
+              matchedFact = fact;
+              break;
+            }
+          }
+
+          if (matchedFact) {
+            appendMessage('ai', matchedFact.body);
+            if (matchedFact.action) matchedFact.action();
+          } else {
+            // Default response if no prompt triggers perfectly
+            const fallbackText = `Thank you for asking. Your inquiry **"${escapeHTML(userQuery)}"** touches on complex structural problems that **HarSHal** seeks to address. 
+
+The **World Without Worries (WWW)** architecture handles complex challenges by mapping local skill assets to systemic requirements. To help customize your answer:
+* Would you like to explore the **Circular Human Economy** structure?
+* Would you like to apply as a founding **Pioneer**?
+
+You can submit your portfolio, business development questions, or project briefs to **ha.saru.bhai.xyz@gmail.com**, or trigger our [**Registration Form**](#) directly so we can coordinate on specific solutions.`;
+            appendMessage('ai', fallbackText);
+          }
+        }, 1200); // Simulated network latency for cognitive processing
+      }
+
+      // Clear the current chat log
+      function resetChat() {
+        chatLogs.innerHTML = '';
+        chatLogs.classList.add('hidden');
+        welcomeScreen.classList.remove('hidden');
+      }
+
+      // Toggle Registration Modal with animations
+      function openRegistrationModal() {
+        regModal.classList.remove('hidden');
+        setTimeout(() => {
+          regModal.classList.remove('opacity-0');
+          modalContainer.classList.remove('scale-95');
+        }, 50);
+      }
+
+      function closeRegistrationModal() {
+        regModal.classList.add('opacity-0');
+        modalContainer.classList.add('scale-95');
+        setTimeout(() => {
+          regModal.classList.add('hidden');
+        }, 300);
+      }
+
+      // Toggle Mobile Sidebar View
+      function toggleMobileSidebar() {
+        if (mobileSidebar.classList.contains('hidden')) {
+          mobileSidebar.classList.remove('hidden');
+          setTimeout(() => {
+            mobileSidebar.classList.add('opacity-100');
+            mobileSidebarContent.classList.remove('-translate-x-full');
+          }, 50);
+        } else {
+          mobileSidebarContent.classList.add('-translate-x-full');
+          mobileSidebar.classList.remove('opacity-100');
+          setTimeout(() => {
+            mobileSidebar.classList.add('hidden');
+          }, 300);
+        }
+      }
+
+      // Route Registration Form Data to mailto:
+      function handleRegistrationSubmit(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('fullName').value;
+        const email = document.getElementById('emailAddress').value;
+        const type = document.getElementById('participationType').value;
+        const details = document.getElementById('proposalDetails').value;
+
+        // Formulate descriptive email payload for seamless email compilation
+        const subject = encodeURIComponent(`HarSHal WWW Registration - ${name}`);
+        const body = encodeURIComponent(
+`DEAR HARSHAL WWW DIRECTORY,
+
+A new pioneer is registering for the World Without Worries Movement.
+
+=======================================================
+PIONEER REGISTRATION PROFILE DETAILS:
+=======================================================
+- Full Name: ${name}
+- Contact Email: ${email}
+- Contribution Category: ${type.toUpperCase()}
+
+PROPOSAL & INTRODUCTORY DETAILS:
+${details}
+
+=======================================================
+This form was processed and submitted via HarSHal Secure Portal.
+`
+        );
+
+        // Compile mailto link targeting user request address
+        const mailtoLink = `mailto:ha.saru.bhai.xyz@gmail.com?subject=${subject}&body=${body}`;
+        
+        // Execute email client dispatch safely
+        window.location.href = mailtoLink;
+
+        // Feedback in UI
+        closeRegistrationModal();
+        
+        // Clean Form values
+        document.getElementById('regForm').reset();
+
+        // Feed message to interactive chat interface
+        setTimeout(() => {
+          welcomeScreen.classList.add('hidden');
+          chatLogs.classList.remove('hidden');
+          appendMessage('ai', `Thank you, **${name}**! I have successfully processed your registration data and initiated a mail transfer link to **ha.saru.bhai.xyz@gmail.com**. 
+
+If your device didn't launch its default mail client automatically, you can manually compose your proposal and email it directly. We look forward to working together towards a World Without Worries!`);
+        }, 500);
+      }
+
+      // Standard escape to prevent injection vectors
+      function escapeHTML(str) {
+        return str.replace(/[&<>'"]/g, 
+          tag => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            "'": '&#39;',
+            '"': '&quot;'
+          }[tag] || tag)
+        );
+      }
+
+      // Simple markdown converter to support bold, link formats seamlessly in mock AI responses
+      function formatMarkdown(text) {
+        let html = text;
+        // Bold tags
+        html = html.replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-white">$1</strong>');
+        // Bullet list formatting
+        html = html.replace(/^\*\s(.*)$/gm, '<li class="ml-5 list-disc mb-1">$1</li>');
+        // Link patterns targeting form trigger
+        html = html.replace(/\[(.*?)\]\(\s*#\s*\)/g, '<button onclick="openRegistrationModal()" class="text-zinc-100 underline decoration-zinc-400 hover:text-white font-medium">$1</button>');
+        return html;
+      }
+
+      // Scroll utility
+      function scrollToBottom() {
+        const container = document.getElementById('chat-container');
+        container.scrollTop = container.scrollHeight;
+      }
+    </script>
+  </body>
+</html>
